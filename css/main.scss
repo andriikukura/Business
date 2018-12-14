@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:400,700');
+
+$menu-color: #969696;
+$title-color: #394b50;
+$button-color: #ffbb42;
+$cards-color: #709dca;
+
+ 
+
+body {
+    font-family: 'Lato', sans-serif;
+    font-size: 13px;
+
+}
+
+nav {
+    flex: 0 0 100%;
+    justify-content: space-between;
+}
+.menu-right {
+    margin: 0 0 0 auto !important;
+
+}
+
+header {
+    .nav-item {
+        &:hover {
+            border: 1px solid $button-color;
+            border-radius: 4px;
+            background-color: $button-color;
+            
+        }
+    }
+
+    .nav-link {
+        text-decoration: none;
+        text-transform: uppercase;
+        font-size: 13.5px;
+        color: $menu-color;
+        font-weight: 400;
+        &:hover {
+            color: #fff;
+        }
+        
+    }
+}
+
+.laptop {
+    text-align: center;
+    background-color: #709dca;
+    padding-top: 105px;
+    padding-bottom: 345px;
+    .title {
+        text-transform: uppercase;
+        font-weight: 700;
+        color: #fff;
+    }
+    .subtitle{
+        color: #fff;
+    }
+
+    form {
+        justify-content: center;
+        padding-top: 32px;
+
+        .request {
+            background-color: $button-color;
+            border-color: $button-color;
+            border-radius: 4px;
+            text-transform: uppercase;
+            width: 210px;
+            transition: ease .4s;
+            &:hover {
+                background-color: #fff;
+                color: #ffbb42;
+                border-color: #fff;
+            }
+            
+        }
+    }
+}

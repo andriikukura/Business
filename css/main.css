@@ -1,0 +1,59 @@
+@import url("https://fonts.googleapis.com/css?family=Lato:400,700");
+body {
+  font-family: 'Lato', sans-serif;
+  font-size: 13px; }
+
+nav {
+  -webkit-box-flex: 0;
+  -ms-flex: 0 0 100%;
+  flex: 0 0 100%;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between; }
+
+.menu-right {
+  margin: 0 0 0 auto !important; }
+
+header .nav-item:hover {
+  border: 1px solid #ffbb42;
+  border-radius: 4px;
+  background-color: #ffbb42; }
+
+header .nav-link {
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 13.5px;
+  color: #969696;
+  font-weight: 400; }
+  header .nav-link:hover {
+    color: #fff; }
+
+.laptop {
+  text-align: center;
+  background-color: #709dca;
+  padding-top: 105px;
+  padding-bottom: 345px; }
+  .laptop .title {
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #fff; }
+  .laptop .subtitle {
+    color: #fff; }
+  .laptop form {
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    padding-top: 32px; }
+    .laptop form .request {
+      background-color: #ffbb42;
+      border-color: #ffbb42;
+      border-radius: 4px;
+      text-transform: uppercase;
+      width: 210px;
+      -webkit-transition: ease .4s;
+      -o-transition: ease .4s;
+      transition: ease .4s; }
+      .laptop form .request:hover {
+        background-color: #fff;
+        color: #ffbb42;
+        border-color: #fff; }
